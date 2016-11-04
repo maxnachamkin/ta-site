@@ -1,0 +1,105 @@
+/*
+	Theme Name:     Transformation Agency
+	Theme URI:      http://transformationagency.com
+	Description:    A custom child theme for TA based off of Marketer's Delight by Alex Mangini
+	Author:         Max Nachamkin
+	Author URI:     http://www.maxnachamkin.com
+	Template:       marketers-delight
+	Version:        1.1
+*/
+
+/* HEADER */
+
+.header {
+	text-transform: uppercase;
+}
+
+.header-nav-item {
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding-bottom: 7px;
+}
+
+
+/**
+ * This CSS will ONLY be fired on screen sizes LARGER than 1118px.
+ */
+
+@media all and (min-width: 1118px) {
+
+	.header {
+		height: 90px;
+		padding-top: 30px;
+		text-align: center;
+	}
+
+	.header .logo {
+		font-size: 30px;
+		margin-left: -125px; /* HALF of the logo width */
+		position: absolute;
+			left: 50%;
+			top: -15px;
+		width: 250px;
+	}
+
+
+	/* NAV MENUS */
+
+	.header-left {
+		margin-right: 240px; /* adjust this number to move the menus further/closer to logo */
+	}
+
+	.header-right {
+		margin-right: -30px;
+	}
+
+	.header-nav-item {
+		margin-left: 13px;
+		margin-right: 13px;
+	}
+
+	.header-nav-item:hover {
+		border-bottom: 3px solid #999;
+	}
+
+	.header-nav-item-active {
+		border-bottom: 3px solid #ae2525;
+	}
+
+}
+
+
+/**
+ * This CSS will ONLY be fired on screen sizes SMALLER than 900px.
+ */
+
+@media all and (max-width: 1118px) {
+
+	/* HEADER */
+
+	.header {
+		padding-bottom: 26px;
+		padding-top: 26px;
+	}
+
+	.header-nav {
+		display: none;
+	}
+
+	.has-mobile-menu .header-nav {
+		padding-top: 39px;
+	}
+
+	.has-mobile-menu .header-nav,
+	.has-mobile-menu .header-nav-item {
+		display: block;
+	}
+
+	.has-mobile-menu .header-left,
+	.has-mobile-menu .header-right {
+		float: left;
+		text-align: center;
+		width: 50%;
+	}
+
+}

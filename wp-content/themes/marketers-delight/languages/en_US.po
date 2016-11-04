@@ -1,0 +1,2082 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketers Delight\n"
+"POT-Creation-Date: 2016-09-20 15:53-0400\n"
+"PO-Revision-Date: 2016-09-20 15:53-0400\n"
+"Last-Translator: Alex Mangini <alexfrais@gmail.com>\n"
+"Language-Team: Alex Mangini <alexfrais@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:8
+#, php-format
+msgctxt "comments title"
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:10
+msgid "add yours"
+msgstr ""
+
+#: comments.php:10
+msgid "comments closed"
+msgstr ""
+
+#: comments.php:31 content/pagination.php:12
+msgid "Previous"
+msgstr ""
+
+#: comments.php:32 content/pagination.php:13
+msgid "Next"
+msgstr ""
+
+#: comments.php:45
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:49
+msgid "Cancel"
+msgstr ""
+
+#: content/archives-title.php:30
+msgid "Search Results For: "
+msgstr ""
+
+#: content/author-box.php:4
+msgid "Visit my website"
+msgstr ""
+
+#: content/author-box.php:19
+msgid "About"
+msgstr ""
+
+#: content/byline.php:15
+msgid "by"
+msgstr ""
+
+#: content/comment.php:19
+#, php-format
+msgid "<span class=\"caps font-main\">%s</span> <em>says:</em>"
+msgstr ""
+
+#: content/comment.php:41
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: content/comment.php:56
+msgid "reply"
+msgstr ""
+
+#: content/content-item-404.php:6
+msgid "Nothing Found"
+msgstr ""
+
+#: content/content-item-404.php:18
+msgid ""
+"It looks like the page you're looking for isn't here! See if the tools below "
+"can help you find what you're looking for:"
+msgstr ""
+
+#: content/content-item-404.php:22
+msgid "Search the Website"
+msgstr ""
+
+#: content/content-item-404.php:24
+msgid ""
+"If you have an idea of what you're looking for, try typing in a few of the "
+"best keywords you can think of to get the most relevant search results "
+"possible."
+msgstr ""
+
+#: content/content-item-404.php:32
+msgid "Browse Latest Posts"
+msgstr ""
+
+#: content/content-item-404.php:46
+msgid "Browse By Month"
+msgstr ""
+
+#: content/headline.php:13
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: content/menu.php:3 lib/functions/template-functions.php:208
+msgid "Menu"
+msgstr ""
+
+#: content/post-nav.php:6
+msgid "Previous Post: "
+msgstr ""
+
+#: content/post-nav.php:8
+msgid "Next Post: "
+msgstr ""
+
+#: content/text.php:10
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: functions.php:128
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:129
+msgid "The main sidebar is added to your blog's homepage"
+msgstr ""
+
+#: functions.php:142
+#, php-format
+msgid ""
+"You can create up to 3 columns of content in your site's footer. This is "
+"column %s."
+msgstr ""
+
+#: functions.php:154
+msgid "Footer Copy"
+msgstr ""
+
+#: functions.php:155
+msgid "Add text and site links to the bottom of the site footer."
+msgstr ""
+
+#: functions.php:274
+msgid "Twitter username (without @)"
+msgstr ""
+
+#: lib/addons/footnotes/footnotes.php:39 lib/addons/footnotes/functions.php:94
+#: lib/addons/page-leads/table-lead/table-lead.php:380
+msgid "Footnotes"
+msgstr ""
+
+#: lib/addons/footnotes/footnotes.php:81
+msgid "Show footnotes list (after post)"
+msgstr ""
+
+#: lib/addons/footnotes/footnotes.php:88
+msgid "New Footnote"
+msgstr ""
+
+#: lib/addons/main-menu/admin/meta-box.php:85
+msgid "Select a custom menu&hellip;"
+msgstr ""
+
+#: lib/addons/main-menu/admin/meta-box.php:109
+#: lib/addons/main-menu/main-menu.php:56
+#: lib/addons/popups/admin/admin-popups.php:267
+#: lib/addons/popups/admin/settings.php:98
+msgid "Main Menu"
+msgstr ""
+
+#: lib/addons/main-menu/admin/meta-box.php:112
+msgid "Remove <b>Main Menu</b>"
+msgstr ""
+
+#: lib/addons/main-menu/admin/meta-box.php:116
+msgid "Set a custom menu"
+msgstr ""
+
+#: lib/addons/main-menu/main-menu.php:57
+msgid "Social Media Menu"
+msgstr ""
+
+#: lib/addons/main-menu/templates/main-menu.php:19
+msgid "Search"
+msgstr ""
+
+#: lib/addons/main-menu/templates/searchform-main-menu.php:15 searchform.php:3
+msgid "To search, type and hit enter&hellip;"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:26
+#: lib/addons/page-leads/page-leads.php:42
+msgid "Action Lead"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:30
+msgid "Action Page Lead"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:192
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:150
+#: lib/addons/page-leads/table-lead/table-lead.php:182
+#: lib/addons/page-leads/video-lead/video-lead.php:221
+msgid "Display Options"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:201
+#: lib/addons/page-leads/email-lead/email-lead.php:195
+#: lib/addons/page-leads/table-lead/table-lead.php:192
+#: lib/addons/page-leads/video-lead/video-lead.php:260
+msgid "Position"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:213
+#: lib/addons/page-leads/email-lead/email-lead.php:207
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:171
+#: lib/addons/page-leads/table-lead/table-lead.php:204
+#: lib/addons/page-leads/video-lead/video-lead.php:272
+msgid ""
+"Reorder any Page Leads you add to the same position above or below each "
+"other by setting higher/lower numbers."
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:224
+#: lib/addons/page-leads/email-lead/email-lead.php:218
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:182
+#: lib/addons/page-leads/table-lead/table-lead.php:216
+#: lib/addons/page-leads/video-lead/video-lead.php:233
+#: lib/addons/popups/admin/main-popup-fields.php:109
+msgid "Display"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:229
+#: lib/addons/page-leads/email-lead/email-lead.php:223
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:187
+#: lib/addons/page-leads/table-lead/table-lead.php:221
+#: lib/addons/page-leads/video-lead/video-lead.php:238
+msgid "Show sitewide"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:234
+#: lib/addons/page-leads/email-lead/email-lead.php:228
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:192
+#: lib/addons/page-leads/table-lead/table-lead.php:226
+#: lib/addons/page-leads/video-lead/video-lead.php:243
+msgid "Show on blog posts page"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:235
+#: lib/addons/page-leads/email-lead/email-lead.php:229
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:193
+#: lib/addons/page-leads/table-lead/table-lead.php:227
+#: lib/addons/page-leads/video-lead/video-lead.php:244
+msgid "Show on all posts"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:236
+#: lib/addons/page-leads/email-lead/email-lead.php:230
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:194
+#: lib/addons/page-leads/table-lead/table-lead.php:228
+#: lib/addons/page-leads/video-lead/video-lead.php:245
+msgid "Show on all pages"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:238
+#: lib/addons/page-leads/email-lead/email-lead.php:233
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:196
+#: lib/addons/page-leads/table-lead/table-lead.php:230
+#: lib/addons/page-leads/video-lead/video-lead.php:247
+msgid "You can add custom Page Leads by editing any post, page, or category."
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:264
+#: lib/addons/page-leads/table-lead/table-lead.php:254
+msgid "Lead Content"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:273
+#: lib/addons/page-leads/action-lead/action-lead.php:390
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:246
+#: lib/addons/page-leads/table-lead/table-lead.php:321
+#: lib/addons/page-leads/video-lead/video-lead.php:309
+msgid "Subtitle"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:286
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:232
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:295
+#: lib/addons/page-leads/table-lead/table-lead.php:263
+#: lib/addons/page-leads/table-lead/table-lead.php:309
+#: lib/addons/page-leads/video-lead/video-lead.php:323
+#: lib/addons/popups/customize/customize.php:122
+msgid "Headline"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:300
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:260
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:307
+#: lib/addons/page-leads/table-lead/table-lead.php:275
+#: lib/addons/page-leads/video-lead/video-lead.php:337
+#: lib/addons/popups/customize/customize.php:138
+#: lib/admin/meta/after-post.php:385 lib/email/admin/email-fields.php:75
+#: lib/email/widgets/email-form.php:187 lib/widgets/text-image.php:116
+msgid "Description"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:319
+msgid "Action Type"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:324
+msgid "Select an action&hellip;"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:325
+msgid "Button"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:326
+msgid "Button Box"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:327
+#: lib/addons/popups/customize/customize.php:240
+#: lib/admin/meta/after-post.php:332
+msgid "Email Form"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:351
+msgid "Button Style"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:356
+msgid "Show title + description on left, button on right"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:378
+#: lib/admin/meta/after-post.php:375 lib/email/admin/email-fields.php:65
+#: lib/email/widgets/email-form.php:179 lib/widgets/quote.php:90
+#: lib/widgets/text-image.php:108
+msgid "Title"
+msgstr ""
+
+#: lib/addons/page-leads/action-lead/action-lead.php:402
+msgid "Checkmarks"
+msgstr ""
+
+#: lib/addons/page-leads/email-lead/email-lead.php:26
+#: lib/addons/page-leads/page-leads.php:44
+msgid "Email Lead"
+msgstr ""
+
+#: lib/addons/page-leads/email-lead/email-lead.php:30
+msgid "Email Page Lead"
+msgstr ""
+
+#: lib/addons/page-leads/email-lead/email-lead.php:168
+#: lib/addons/page-leads/video-lead/video-lead.php:280
+#: lib/admin/meta/metaboxes.php:113 lib/admin/meta/metaboxes.php:299
+#: lib/admin/meta/metaboxes.php:300 lib/customize/customize.php:52
+msgid "Layout"
+msgstr ""
+
+#: lib/addons/page-leads/email-lead/email-lead.php:173
+msgid "Show title + description on left, email form on right"
+msgstr ""
+
+#: lib/addons/page-leads/email-lead/email-lead.php:186
+msgid "Display Settings"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:26
+#: lib/addons/page-leads/page-leads.php:41
+msgid "Funnel Lead"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:30
+msgid "Funnel Page Lead"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:159
+msgid "Funnel Position"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:222
+msgid "Funnel Content"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:272
+msgid "Left Column"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:273
+msgid "Middle Column"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:274
+msgid "Right Column"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:284
+#: lib/addons/page-leads/table-lead/table-lead.php:298
+#: lib/admin/meta/metaboxes.php:299 lib/api/api.php:659
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:327
+msgid "Upload an image"
+msgstr ""
+
+#: lib/addons/page-leads/funnel-lead/funnel-lead.php:332
+msgid "Recommended image size: 400x200"
+msgstr ""
+
+#: lib/addons/page-leads/lib/admin/admin-page.php:23
+#: lib/addons/page-leads/lib/admin/admin-page.php:41
+msgid "Page Leads"
+msgstr ""
+
+#: lib/addons/page-leads/page-leads.php:43
+#: lib/addons/page-leads/table-lead/table-lead.php:28
+msgid "Table Lead"
+msgstr ""
+
+#: lib/addons/page-leads/page-leads.php:45
+#: lib/addons/page-leads/video-lead/video-lead.php:33
+msgid "Video Lead"
+msgstr ""
+
+#: lib/addons/page-leads/page-leads.php:49
+msgid "After Header (default)"
+msgstr ""
+
+#: lib/addons/page-leads/page-leads.php:50
+msgid "Before Header"
+msgstr ""
+
+#: lib/addons/page-leads/page-leads.php:51 lib/admin/meta/after-post.php:28
+#: lib/email/admin/admin-page.php:261
+msgid "After Post"
+msgstr ""
+
+#: lib/addons/page-leads/page-leads.php:52
+msgid "Before Footer"
+msgstr ""
+
+#: lib/addons/page-leads/page-leads.php:53
+msgid "After Footer"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:32
+msgid "Table Page Lead"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:286
+msgid "Left Table"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:287
+msgid "Middle Table"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:288
+msgid "Right Table"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:333
+msgid "Price"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:339
+msgid "$20"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:346
+msgid "/month"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:358
+msgid "Table Listing"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:403
+msgid "Show payment methods"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:408
+msgid "Show credit card / PayPal icons underneath table"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:417
+msgid "Notice Text"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:422
+msgid ""
+"Display a short message underneath the table. For example, a money-back "
+"guarantee or a short customer testimonial."
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:439
+msgid "Template"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:444
+msgid "Featured (default)"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/table-lead.php:445
+msgid "Professional"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/templates/table-lead-featured.php:338
+#: lib/addons/page-leads/table-lead/templates/table-lead-pro.php:365
+msgid "Accepted payment methods"
+msgstr ""
+
+#: lib/addons/page-leads/table-lead/templates/table-lead-pro.php:125
+#: lib/addons/page-leads/table-lead/templates/table-lead-pro.php:209
+#: lib/addons/page-leads/table-lead/templates/table-lead-pro.php:293
+msgid "View Details"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:37
+msgid "Video Page Lead"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:194
+msgid "Play button"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:211
+msgid "YouTube URL"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:215
+msgid "Vimeo URL"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:285
+msgid "Content / Video (default)"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:286
+msgid "Video / Content"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:287
+msgid "1 column, center"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:299
+#: lib/admin/meta/metaboxes.php:368
+msgid "Content"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:353
+msgid "Video"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:362
+msgid "Video Service"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:367
+msgid "Select video service&hellip;"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:368
+msgid "YouTube"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:369
+msgid "Vimeo"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:370
+msgid "Embed Code"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:401
+msgid "Video Embed Code"
+msgstr ""
+
+#: lib/addons/page-leads/video-lead/video-lead.php:406
+msgid "Paste your HTML video embed code here."
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:25
+#: lib/addons/popups/admin/admin-popups.php:61
+msgid "Popups"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:141
+msgid "Popups Manager"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:190
+msgid "Enter new popup name&hellip;"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:197
+msgid "edit popup"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:199
+msgid "copy shortcode"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:223
+msgid "Popups Settings"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:229
+msgid "Toggle panel: Main Popup"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:230
+msgid "Main Popup"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:243
+msgid "Toggle panel: Popup Hotspots"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:244 lib/admin/dashboard.php:161
+msgid "Popup Hotspots"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:253
+#: lib/addons/popups/admin/main-popup-fields.php:64
+#: lib/addons/popups/admin/settings.php:57 lib/api/fields/button/button.php:209
+msgid "Select a popup&hellip;"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:256
+#: lib/addons/popups/admin/settings.php:90
+msgid ""
+"2-step popups are triggered when a user clicks any text link, image, or "
+"button. You can quickly add 2-step popups around your site by setting any of "
+"the options below."
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:272
+#: lib/addons/popups/admin/settings.php:102
+msgid "Add an email icon to the Main Menu that opens a popup when clicked."
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:282
+#: lib/addons/popups/admin/settings.php:109
+msgid "Byline"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:287
+#: lib/addons/popups/admin/settings.php:113
+msgid "Add a link to blog post bylines that open a popup when clicked."
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:295
+#: lib/addons/popups/admin/settings.php:120
+msgid "Byline Text"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:301
+#: lib/addons/popups/popups.php:262
+msgid "Get updates"
+msgstr ""
+
+#: lib/addons/popups/admin/admin-popups.php:320
+msgid "Save Popups"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:67
+msgid "Don't show popup"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:91
+msgid "Show Method"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:96
+msgid "Select show method&hellip;"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:97
+msgid "Exit Intent"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:98
+msgid "Show on Delay"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:114
+msgid "Show <b>sitewide</b>"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:119
+msgid "Show on <b>blog posts page</b>"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:120
+msgid "Show on all <b>posts</b>"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:121
+msgid "Show on all <b>pages</b>"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:122
+msgid "Show on all <b>categories</b>"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:134
+msgid "Delay Time"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:144
+msgid "seconds"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:147
+msgid "How long before Exit Intent is detected, or popup is shown on delay."
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:155
+msgid "Cookie Expiration"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:167
+msgid "days"
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:170
+msgid ""
+"The number of days to show the popup again to a visitor who has already seen "
+"it. Set 0 to never store cookie and show on every page load.<br />Popup not "
+"displaying? Clear your browser cookies for your site."
+msgstr ""
+
+#: lib/addons/popups/admin/main-popup-fields.php:174
+#, php-format
+msgid ""
+"Uses default <a href=\"%s\" target=\"_blank\">cookie expiration</a> days."
+msgstr ""
+
+#: lib/addons/popups/admin/meta-box.php:9
+#: lib/addons/popups/admin/meta-box.php:14
+msgid "Popup"
+msgstr ""
+
+#: lib/addons/popups/admin/settings.php:24 lib/admin/settings.php:40
+msgid "Settings"
+msgstr ""
+
+#: lib/addons/popups/admin/settings.php:70
+msgid "Toggle panel: Set default popup"
+msgstr ""
+
+#: lib/addons/popups/admin/settings.php:71
+msgid "Set Default Popup"
+msgstr ""
+
+#: lib/addons/popups/admin/settings.php:86
+msgid "Toggle panel: 2-steps"
+msgstr ""
+
+#: lib/addons/popups/admin/settings.php:87
+msgid "2-Step Popups"
+msgstr ""
+
+#: lib/addons/popups/admin/settings.php:125
+msgid "Get email updates"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:81
+#, php-format
+msgid ""
+"To use this popup on your site, either place the <code>[md_popup]</code> "
+"shortcode to create a 2-step process or automatically display it with the "
+"settings on the Main Popups screen or post editor. <a href=\"%s\" target="
+"\"_blank\">Read more&rarr;</a>"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:90
+msgid "Headline, Text, Button"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:106
+msgid "Enable Headline + Text Area"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:154
+msgid "Bullet Points"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:155
+#, php-format
+msgid ""
+"Refer to the <a href=\"%s\" target=\"_blank\">MD Style Guide</a> for "
+"formatting tips."
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:171
+#: lib/api/fields/button/button.php:230 lib/widgets/text-image.php:132
+msgid "Button Text"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:187
+msgid "Button URL"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:197
+#: lib/admin/meta/featured-image.php:25
+msgid "Featured Image"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:211
+msgid "Add/Edit Your Featured Image"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:227
+msgid "Wrap image to edge of popup"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:249
+#: lib/email/admin/email-fields.php:26 lib/email/widgets/email-form.php:215
+msgid "Select a List&hellip;"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:265
+#: lib/email/widgets/email-form.php:212
+msgid "Email List"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:282
+msgid "Email Title"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:297
+msgid "Email Footer"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:315
+#: lib/email/admin/email-fields.php:101 lib/email/widgets/email-form.php:235
+msgid "Ask for subscribers name in signup form"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:331
+#: lib/email/admin/email-fields.php:109 lib/email/widgets/email-form.php:242
+msgid "Name Field Label"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:334
+#: lib/email/admin/email-fields.php:114 lib/email/templates/email-form.php:2
+#: lib/email/widgets/email-form.php:244
+msgid "Enter your name&hellip;"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:350
+#: lib/email/admin/email-fields.php:123 lib/email/widgets/email-form.php:251
+msgid "Email Field Label"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:353
+#: lib/email/admin/email-fields.php:128 lib/email/templates/email-form.php:3
+#: lib/email/widgets/email-form.php:253
+msgid "Enter your email&hellip;"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:369
+msgid "Submit Button Label"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:372
+#: lib/email/admin/email-fields.php:142 lib/email/templates/email-form.php:4
+#: lib/email/widgets/email-form.php:261
+msgid "Join Now!"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:388
+#: lib/email/widgets/email-form.php:269
+msgid "Attach input fields to each other"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:403
+#: lib/email/admin/admin-page.php:146
+msgid "Custom HTML Form Code"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:404
+#: lib/email/admin/email-fields.php:225
+#, php-format
+msgid ""
+"For best results on formatting your email form code, refer to the <a href="
+"\"%s\" target=\"_blank\">MD style guide</a>."
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:429
+#: lib/addons/popups/customize/customize.php:459
+msgid "Custom Template"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:444
+msgid "Override popup with custom template"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:460
+#, php-format
+msgid ""
+"<p>Use HTML to build a custom popup template that formats spacing, columns, "
+"and even <code>[shortcodes]</code> from MD helper classes.<p><b>LEARN MORE:</"
+"b> <a href=\"%s\" target=\"_blank\">MD Style Guide</a></p><p><b>GET "
+"TEMPLATES:</b> <a href=\"%2s\" target=\"_blank\">Free Popups Templates</a></"
+"p><p><b>VIDEO EMBEDS:</b> <a href=\"%3s\" target=\"_blank\">Read more</a></p>"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:475
+msgid "Custom CSS"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:476
+#, php-format
+msgid ""
+"Use:<br /><code>#md_popup_%s</code><br />&hellip;to target this popup with "
+"CSS."
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:486
+#: lib/api/fields/design/design.php:47
+msgid "Design Options"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:501
+msgid "Text Color"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:516
+msgid "Link Color"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:531
+msgid "Button Color"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:546
+msgid "Close (&times;) Color"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:561
+msgid "Secondary Background Color"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:577
+msgid "Popup Background Color"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:591
+msgid "Popup Background Image"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:609
+msgid "Background Image Position: Center"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:625
+#, php-format
+msgid "Make columns 100% full-width"
+msgstr ""
+
+#: lib/addons/popups/customize/customize.php:639
+#: lib/admin/meta/after-post.php:408
+msgid "CSS Classes"
+msgstr ""
+
+#: lib/addons/popups/functions/main-menu.php:19
+msgid "Get Updates"
+msgstr ""
+
+#: lib/addons/popups/functions/shortcode.php:36
+msgid "Open popup"
+msgstr ""
+
+#: lib/addons/popups/functions/template-functions.php:265
+#, php-format
+msgid ""
+"You must <a href=\"%s\">create at least one popup</a> before you can add one "
+"here."
+msgstr ""
+
+#: lib/addons/tracking-scripts.php:26 lib/admin/settings.php:146
+msgid "Tracking Scripts"
+msgstr ""
+
+#: lib/addons/tracking-scripts.php:135
+msgid "Header Scripts"
+msgstr ""
+
+#: lib/addons/tracking-scripts.php:140
+msgid ""
+"Print scripts to the <code>&lt;head></code> section (before opening "
+"<code>&lt;body></code> tag)."
+msgstr ""
+
+#: lib/addons/tracking-scripts.php:148
+msgid "Footer Scripts"
+msgstr ""
+
+#: lib/addons/tracking-scripts.php:153
+msgid ""
+"Print scripts after the <code>&lt;footer></code> section (before closing "
+"<code>&lt;/body></code> tag)."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: lib/admin/dashboard.php:23 lib/api/api.php:233
+msgid "Marketers Delight"
+msgstr ""
+
+#: lib/admin/dashboard.php:40
+msgid "Dashboard"
+msgstr ""
+
+#: lib/admin/dashboard.php:84
+msgid "The Ultimate MD"
+msgstr ""
+
+#: lib/admin/dashboard.php:85
+msgid "Getting Started Guide"
+msgstr ""
+
+#: lib/admin/dashboard.php:90
+msgid "Better post formatting"
+msgstr ""
+
+#: lib/admin/dashboard.php:91
+msgid "MD Style Guide"
+msgstr ""
+
+#: lib/admin/dashboard.php:96
+msgid "Developer-Friendly"
+msgstr ""
+
+#: lib/admin/dashboard.php:97
+msgid "Custom Templates &amp; Child Themes"
+msgstr ""
+
+#: lib/admin/dashboard.php:102
+msgid "The complete MD toolkit"
+msgstr ""
+
+#: lib/admin/dashboard.php:103
+msgid "MD Features Explorer"
+msgstr ""
+
+#: lib/admin/dashboard.php:135
+msgid "Browse all MD Tutorials &rarr;"
+msgstr ""
+
+#: lib/admin/dashboard.php:148
+#, php-format
+msgid "New in MD%s"
+msgstr ""
+
+#: lib/admin/dashboard.php:148
+#, php-format
+msgid "<a href=\"%s\" class=\"button\" target=\"_blank\">read more &rarr;</a>"
+msgstr ""
+
+#: lib/admin/dashboard.php:151
+msgid "MD is now a single theme!"
+msgstr ""
+
+#: lib/admin/dashboard.php:152
+#, php-format
+msgid ""
+"No more configuring multiple plugins, all addons have been merged into the "
+"MD theme! Manage features from the new <a href=\"%s\">MD Settings</a> page."
+msgstr ""
+
+#: lib/admin/dashboard.php:156
+msgid "1 License Key, All Updates"
+msgstr ""
+
+#: lib/admin/dashboard.php:157
+msgid ""
+"You now only need 1 license key to enable auto-updates on your site(s). "
+"Manage your license key from the handy new Dashboard widget!"
+msgstr ""
+
+#: lib/admin/dashboard.php:162
+#, php-format
+msgid ""
+"Easily set 2-step popup forms to hotspots around your site from the updated "
+"<a href=\"%s\">Popups Settings</a>."
+msgstr ""
+
+#: lib/admin/dashboard.php:166
+msgid "New Customizer Settings"
+msgstr ""
+
+#: lib/admin/dashboard.php:167
+msgid ""
+"You can now set the default Featured Image position on all posts, and show "
+"excerpts on blog posts. Go to <b>Appearance > Customize > Layout</b>."
+msgstr ""
+
+#: lib/admin/dashboard.php:171
+msgid "New Developer Tools"
+msgstr ""
+
+#: lib/admin/dashboard.php:172
+msgid ""
+"<b>15+ hooks and filters</b> have been added into MD4.5 that will help make "
+"your child theme less intrusive and speed up common tasks."
+msgstr ""
+
+#: lib/admin/dashboard.php:181
+msgid "Version History"
+msgstr ""
+
+#: lib/admin/dashboard.php:181
+#, php-format
+msgid ""
+"<a href=\"%s\" class=\"button\" target=\"_blank\">My MD downloads &rarr;</a>"
+msgstr ""
+
+#: lib/admin/dashboard.php:208
+msgid "Need Inspiration?"
+msgstr ""
+
+#: lib/admin/dashboard.php:210
+msgid ""
+"The Site Showcase features sites from around the community personalized with "
+"MD. Browse the showcase for ideas on building your own website."
+msgstr ""
+
+#: lib/admin/dashboard.php:212
+msgid "Visit the MD Showcase &rarr;"
+msgstr ""
+
+#: lib/admin/dashboard.php:220
+msgid "Join the MD Members-only Forums!"
+msgstr ""
+
+#: lib/admin/dashboard.php:222
+msgid ""
+"Get access to exclusive tips, tutorials, and free downloads regularly posted "
+"to the MD members-only forums."
+msgstr ""
+
+#: lib/admin/dashboard.php:224
+msgid "Go to MD Tutorials forum"
+msgstr ""
+
+#: lib/admin/dashboard.php:226
+#, php-format
+msgid ""
+"not a member yet? <a href=\"%s\">register</a> and your account will be "
+"approved within 24hrs."
+msgstr ""
+
+#: lib/admin/dashboard.php:234
+msgid "How do Page Leads work?"
+msgstr ""
+
+#: lib/admin/dashboard.php:236
+#, php-format
+msgid ""
+"From the <a href=\"%s\">Page Leads</a> panel you can create the default Page "
+"Leads to be displayed throughout your site."
+msgstr ""
+
+#: lib/admin/dashboard.php:238
+msgid ""
+"You can also create a custom Leads on any post, page, or category to create "
+"more specialized content and offers:"
+msgstr ""
+
+#: lib/admin/dashboard.php:241
+#, php-format
+msgid "<a href=\"%s\">Browse posts</a>"
+msgstr ""
+
+#: lib/admin/dashboard.php:242
+#, php-format
+msgid "<a href=\"%s\">Browse pages</a>"
+msgstr ""
+
+#: lib/admin/dashboard.php:243
+#, php-format
+msgid "<a href=\"%s\">Browse categories</a>"
+msgstr ""
+
+#: lib/admin/dashboard.php:252
+msgid "Adding Email Forms"
+msgstr ""
+
+#: lib/admin/dashboard.php:254
+#, php-format
+msgid ""
+"The form you create on the <a href=\"%s\">Email Forms</a> page will be used "
+"as the email form you enable anywhere throughout your site."
+msgstr ""
+
+#: lib/admin/dashboard.php:256
+msgid ""
+"You can create custom email forms in the widget or on any individual post, "
+"page, or category."
+msgstr ""
+
+#: lib/admin/meta/after-post.php:113
+msgid "Stay Up-to-Date With Latest Posts By Joining the Newsletter"
+msgstr ""
+
+#: lib/admin/meta/after-post.php:114
+msgid ""
+"Never get lost again! By joining the newsletter you'll receive only the best "
+"and most up-to-date content we have for you."
+msgstr ""
+
+#: lib/admin/meta/after-post.php:320
+msgid "Leave empty"
+msgstr ""
+
+#: lib/admin/meta/after-post.php:331
+msgid "Show at the end of this post&hellip;"
+msgstr ""
+
+#: lib/admin/meta/after-post.php:333
+msgid "Action Box"
+msgstr ""
+
+#: lib/admin/meta/after-post.php:349 lib/email/widgets/email-form.php:167
+msgid "Create Custom Email Form"
+msgstr ""
+
+#: lib/admin/meta/after-post.php:351
+#, php-format
+msgid ""
+"Tip: If you leave the fields below empty, your <a href=\"%s\" target=\"_blank"
+"\">default email form</a> will appear at the end of this post."
+msgstr ""
+
+#: lib/admin/meta/after-post.php:367
+msgid "Create Custom Action Box"
+msgstr ""
+
+#: lib/admin/meta/after-post.php:412
+msgid ""
+"Tip: Customize this box with <a href=\"https://kolakube.com/md-style-guide/"
+"\" target=\"_blank\">MD Styles</a> like the <b>box-dark</b> class."
+msgstr ""
+
+#: lib/admin/meta/featured-image.php:59
+msgid "Set featured image"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:167
+msgid " (100x100 circle)"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:169 lib/customize/customize.php:86
+msgid "Select image position&hellip;"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:170 lib/customize/customize.php:87
+msgid "Right, text wrap"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:171 lib/customize/customize.php:88
+msgid "Left, text wrap"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:172 lib/customize/customize.php:89
+msgid "Center, no text wrap"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:173 lib/customize/customize.php:90
+msgid "Full-width, below headline"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:174 lib/customize/customize.php:91
+msgid "Full-width, above headline"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:175 lib/customize/customize.php:92
+msgid "Headline cover"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:176 lib/customize/customize.php:93
+msgid "Header cover"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:197
+msgid "Image Position"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:204
+#, php-format
+msgid "The default image position is: %s"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:216
+msgid "Image Caption"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:218
+msgid "Add caption over image"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:220
+msgid "Edit your Featured Image to add a caption."
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:269
+msgid "Select content layout..."
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:270 lib/customize/customize.php:69
+msgid "Content / Sidebar (default)"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:271 lib/customize/customize.php:70
+msgid "Sidebar / Content"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:316
+msgid "Header"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:322
+msgid "Remove <b>Header</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:332
+msgid "Remove <b>Logo</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:342
+msgid "Remove <b>Tagline</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:352
+msgid "Remove <b>Menu</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:374
+msgid "Remove <b>Content Box</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:388
+msgid "Remove <b>Headline</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:402
+msgid "Remove <b>Byline</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:422
+msgid "Sidebar"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:430
+msgid "Remove <b>Sidebar</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:440
+msgid "Add <b>Main Sidebar</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:456
+msgid "Create <b>Custom Sidebar</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:460
+#, php-format
+msgid "Edit custom sidebar in <a href=\"%s\" target=\"_blank\">Widgets</a>."
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:488
+msgid "Footer"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:494
+msgid "Remove <b>Footer</b>"
+msgstr ""
+
+#: lib/admin/meta/metaboxes.php:504
+msgid "Remove <b>Footer Columns</b>"
+msgstr ""
+
+#: lib/admin/settings.php:22
+msgid "MD Settings"
+msgstr ""
+
+#: lib/admin/settings.php:119
+msgid "Toggle panel: Features Manager"
+msgstr ""
+
+#: lib/admin/settings.php:120
+msgid "Features Manager"
+msgstr ""
+
+#: lib/admin/settings.php:123
+msgid ""
+"To better tailor Marketers Delight for your exact needs per site, you can "
+"disable major features you don't need here. Admin controls and existing "
+"content related to any features you disable will no longer appear around "
+"your site, and in some cases, get deleted. Use at your own risk."
+msgstr ""
+
+#: lib/admin/settings.php:126
+msgid "Disable <b>Page Leads</b>"
+msgstr ""
+
+#: lib/admin/settings.php:127
+msgid "Disable <b>Popups</b>"
+msgstr ""
+
+#: lib/admin/settings.php:128
+msgid "Disable <b>Main Menu</b>"
+msgstr ""
+
+#: lib/admin/settings.php:129
+msgid "Disable <b>Tracking Scripts</b>"
+msgstr ""
+
+#: lib/admin/settings.php:130
+msgid "Disable <b>Footnotes</b>"
+msgstr ""
+
+#: lib/admin/settings.php:145
+msgid "Toggle panel: Tracking Scripts"
+msgstr ""
+
+#: lib/admin/settings.php:161
+msgid "Toggle panel: Site Tools"
+msgstr ""
+
+#: lib/admin/settings.php:162
+msgid "Site Tools"
+msgstr ""
+
+#: lib/admin/settings.php:175
+#, php-format
+msgid ""
+"Upload your site's logo for use as the Schema Publisher Logo.<br /><a href="
+"\"%s\" target=\"_blank\">See logo requirements &rarr;</a>"
+msgstr ""
+
+#: lib/api/api.php:242
+msgid "MD Account"
+msgstr ""
+
+#: lib/api/api.php:243
+msgid "Tutorials"
+msgstr ""
+
+#: lib/api/api.php:244
+msgid "Forums"
+msgstr ""
+
+#: lib/api/api.php:245
+msgid "Affiliates"
+msgstr ""
+
+#: lib/api/api.php:246
+msgid "Newsletter"
+msgstr ""
+
+#: lib/api/api.php:470
+#, php-format
+msgid "Enable <b>%s</b>"
+msgstr ""
+
+#: lib/api/api.php:481
+#, php-format
+msgid "Create Custom <b>%s</b>"
+msgstr ""
+
+#: lib/api/api.php:1037
+msgid "Add New"
+msgstr ""
+
+#: lib/api/api.php:1108 lib/email/widgets/email-form.php:296
+#: lib/widgets/content-spotlight.php:154 lib/widgets/quote.php:119
+#: lib/widgets/text-image.php:145
+msgid "Preview image"
+msgstr ""
+
+#: lib/api/api.php:1110 lib/email/widgets/email-form.php:298
+#: lib/widgets/content-spotlight.php:137 lib/widgets/content-spotlight.php:156
+#: lib/widgets/quote.php:121 lib/widgets/text-image.php:147
+msgid "http://"
+msgstr ""
+
+#: lib/api/api.php:1113 lib/email/widgets/email-form.php:301
+#: lib/widgets/content-spotlight.php:159 lib/widgets/quote.php:124
+#: lib/widgets/text-image.php:150
+msgid "Remove Image"
+msgstr ""
+
+#: lib/api/fields/button/button.php:126
+msgid "Select button action&hellip;"
+msgstr ""
+
+#: lib/api/fields/button/button.php:127
+msgid "Custom link"
+msgstr ""
+
+#: lib/api/fields/button/button.php:130
+msgid "EDD Buy Now"
+msgstr ""
+
+#: lib/api/fields/button/button.php:132
+msgid "WooCommerce Buy Now"
+msgstr ""
+
+#: lib/api/fields/button/button.php:134 lib/api/fields/button/button.php:216
+msgid "MD Popup"
+msgstr ""
+
+#: lib/api/fields/button/button.php:142
+msgid "Button Action"
+msgstr ""
+
+#: lib/api/fields/button/button.php:160
+msgid "Button Link"
+msgstr ""
+
+#: lib/api/fields/button/button.php:177
+msgid "EDD Buy Now Button"
+msgstr ""
+
+#: lib/api/fields/button/button.php:195
+msgid "WooCommerce Buy Now Button"
+msgstr ""
+
+#: lib/api/fields/button/button.php:292
+#, php-format
+msgid "Select a %s&hellip;"
+msgstr ""
+
+#: lib/api/fields/design/design.php:34
+msgid "White (default)"
+msgstr ""
+
+#: lib/api/fields/design/design.php:35
+msgid "Dark"
+msgstr ""
+
+#: lib/api/fields/design/design.php:39
+msgid "Dark (default)"
+msgstr ""
+
+#: lib/api/fields/design/design.php:40
+msgid "White"
+msgstr ""
+
+#: lib/api/fields/design/design.php:46
+msgid "Toggle panel: Design Options"
+msgstr ""
+
+#: lib/api/fields/design/design.php:59 lib/email/widgets/email-form.php:309
+msgid "Background Color"
+msgstr ""
+
+#: lib/api/fields/design/design.php:72 lib/email/widgets/email-form.php:294
+#: lib/widgets/content-spotlight.php:152
+msgid "Background Image"
+msgstr ""
+
+#: lib/api/fields/design/design.php:83
+msgid "Text Color Scheme"
+msgstr ""
+
+#: lib/build/build.php:283
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: lib/build/build.php:284
+msgid "Enter the password&hellip;"
+msgstr ""
+
+#: lib/build/build.php:285
+msgid "Get Access"
+msgstr ""
+
+#: lib/build/filters.php:11
+msgid "Header Menu"
+msgstr ""
+
+#: lib/customize/customize.php:39
+msgid "Logo"
+msgstr ""
+
+#: lib/customize/customize.php:65
+msgid "Content Box"
+msgstr ""
+
+#: lib/customize/customize.php:68
+msgid "Select content box layout&hellip;"
+msgstr ""
+
+#: lib/customize/customize.php:83
+msgid "Default Featured Image Position"
+msgstr ""
+
+#: lib/customize/customize.php:106
+msgid "Add/edit Widgets in <b>Main Sidebar</b>"
+msgstr ""
+
+#: lib/customize/customize.php:131
+msgid "Edit user profile to add/edit author bio."
+msgstr ""
+
+#: lib/customize/customize.php:143
+msgid "Byline Items"
+msgstr ""
+
+#: lib/customize/customize.php:145
+msgid "Remove <b>Author</b>"
+msgstr ""
+
+#: lib/customize/customize.php:146
+msgid "Remove <b>Date</b>"
+msgstr ""
+
+#: lib/customize/customize.php:147
+msgid "Remove <b>Comments</b>"
+msgstr ""
+
+#: lib/customize/customize.php:148
+msgid "Remove <b>Edit</b>"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:22 lib/email/admin/admin-page.php:40
+msgid "Email Forms"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:129
+msgid "Step 1: Connect to Your Email Service"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:131
+msgid ""
+"Before you can insert any email forms to your site, you need to connect to "
+"your email service provider below."
+msgstr ""
+
+#: lib/email/admin/admin-page.php:137
+msgid "Select Service"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:141
+msgid "Select an email service&hellip;"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:142
+msgid "AWeber"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:143
+msgid "MailChimp"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:144
+msgid "ActiveCampaign"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:145
+msgid "ConvertKit"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:166
+msgid "Step 2: Get Your Authorization Code"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:168
+msgid "Get Authorization Code"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:170
+msgid ""
+"Click the \"Get Authorization Code\" button above and login to your account "
+"and get your authorization code. Once you have it, copy it and paste it into "
+"the text field below and click \"Connect.\""
+msgstr ""
+
+#: lib/email/admin/admin-page.php:180
+msgid "API URL"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:196
+msgid "API Key"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:208
+msgid "Connect"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:226
+#, php-format
+msgid ""
+"Fill out the fields below to create a <i>default email form</i> that will be "
+"used throughout your site. You may also override this form to create custom "
+"email forms on any post, page, or category (and the <a href=\"%s\">Email "
+"Signup Form Widget</a>)."
+msgstr ""
+
+#: lib/email/admin/admin-page.php:231
+msgid "Save Changes"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:232
+msgid "Disconnect"
+msgstr ""
+
+#: lib/email/admin/admin-page.php:265
+msgid "Add default email form to end of all posts"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:39
+msgid "Set Default Email List"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:55
+msgid "Email Form Content"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:89
+msgid "Email Form Fields"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:97
+msgid "Show Name Field"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:137 lib/email/widgets/email-form.php:259
+msgid "Submit Button Text"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:151
+msgid "Form Style"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:155
+msgid "Attach input fields to each other in a single line"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:163
+msgid "Email Form Title"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:173
+msgid "Email Form Footer"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:187
+msgid "Customize Email Form"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:195
+msgid "<acronym title=\"Cascading Style Sheets\">CSS</acronym> Classes"
+msgstr ""
+
+#: lib/email/admin/email-fields.php:221
+msgid "<acronym title=\"HyperText Markup Language\">HTML</acronym> Form Code"
+msgstr ""
+
+#: lib/email/api/api.php:82
+msgid ""
+"Disconnecting your email service will set your form settings back to "
+"default. All email forms on your website will be deleted until you reconnect "
+"to an email service. Are you sure you want to continue?"
+msgstr ""
+
+#: lib/email/api/api.php:172
+msgid ""
+"Sorry, there was an error during the connection process. Please try again."
+msgstr ""
+
+#: lib/email/api/api.php:484
+msgid ""
+"Could not connect to your email service. Your Authorization code may be "
+"incorrect. Reload the page and try again.<br /><br /><b>A few things to "
+"check for:</b><br /><br />1) Make sure you have at least one email list "
+"created in your email service provider <em>before</em> starting the "
+"connection process.<br /> 2) Make sure you have an Internet connection<br /"
+">3) Make sure you didn't accidentally paste a blank space or blank line at "
+"the end of your authorization code."
+msgstr ""
+
+#: lib/email/functions/template-functions.php:132
+#, php-format
+msgid ""
+"To display an email form here, first <a href=\"%s\">connect to an email "
+"service</a>."
+msgstr ""
+
+#: lib/email/templates/email-form.php:63
+msgid "Success! Now check your email to confirm your subscription."
+msgstr ""
+
+#: lib/email/templates/email-form.php:99
+msgid "There was an error submitting your subscription. Please try again."
+msgstr ""
+
+#: lib/email/widgets/email-form.php:42
+msgid "Email Signup Form"
+msgstr ""
+
+#: lib/email/widgets/email-form.php:43
+msgid ""
+"Easily place email signup forms with AWeber, MailChimp, or your own custom "
+"code."
+msgstr ""
+
+#: lib/email/widgets/email-form.php:170
+#, php-format
+msgid ""
+"Note: The email form you created on the <a href=\"%s\" target=\"_blank"
+"\">Email Forms</a> page is now showing on your site. If you wish to create a "
+"custom form, click the above checkbox and save to begin."
+msgstr ""
+
+#: lib/email/widgets/email-form.php:197
+msgid "Custom HTML Code"
+msgstr ""
+
+#: lib/email/widgets/email-form.php:228
+msgid "Input Fields"
+msgstr ""
+
+#: lib/email/widgets/email-form.php:275
+msgid "Form Title"
+msgstr ""
+
+#: lib/email/widgets/email-form.php:283
+msgid "Form Footer"
+msgstr ""
+
+#: lib/email/widgets/email-form.php:288
+msgid "Form Design"
+msgstr ""
+
+#: lib/email/widgets/email-form.php:316
+msgid "HTML Classes"
+msgstr ""
+
+#: lib/functions/featured-image.php:32
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: lib/functions/format.php:52
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: lib/updater/theme-updater-admin.php:121
+msgid "MD License Status"
+msgstr ""
+
+#: lib/updater/theme-updater-admin.php:125 lib/updater/theme-updater.php:37
+msgid "active"
+msgstr ""
+
+#: lib/updater/theme-updater-admin.php:128
+msgid "expired"
+msgstr ""
+
+#: lib/updater/theme-updater-admin.php:131
+msgid "invalid"
+msgstr ""
+
+#: lib/updater/theme-updater-admin.php:133
+msgid "inactive"
+msgstr ""
+
+#: lib/updater/theme-updater-admin.php:143
+msgid "Enter/edit your MD license key:"
+msgstr ""
+
+#: lib/updater/theme-updater.php:29
+msgid "Theme License"
+msgstr ""
+
+#: lib/updater/theme-updater.php:30
+#, php-format
+msgid ""
+"Enter your <a href=\"%s\" target=\"_blank\">MD license key</a> to enable "
+"auto updates."
+msgstr ""
+
+#: lib/updater/theme-updater.php:31
+msgid "License Key"
+msgstr ""
+
+#: lib/updater/theme-updater.php:32
+msgid "License Action"
+msgstr ""
+
+#: lib/updater/theme-updater.php:33
+msgid "deactivate"
+msgstr ""
+
+#: lib/updater/theme-updater.php:34
+msgid "activate"
+msgstr ""
+
+#: lib/updater/theme-updater.php:35
+msgid "Renew now, save 40%."
+msgstr ""
+
+#: lib/updater/theme-updater.php:36
+msgid "unlimited"
+msgstr ""
+
+#: lib/updater/theme-updater.php:38
+#, php-format
+msgid "Expires: <b>%s</b>."
+msgstr ""
+
+#: lib/updater/theme-updater.php:39
+#, php-format
+msgid "Active sites: <b>%1$s/%2$s</b>"
+msgstr ""
+
+#: lib/updater/theme-updater.php:40
+#, php-format
+msgid "Your license key expired on  <b>%s</b>."
+msgstr ""
+
+#: lib/updater/theme-updater.php:41
+msgid "expires"
+msgstr ""
+
+#: lib/updater/theme-updater.php:42
+#, php-format
+msgid ""
+"Your license key does not match an active key, please enter an active key "
+"from your account. Need help? <a href=\"%s\" target=\"_blank\">Contact "
+"support</a>."
+msgstr ""
+
+#: lib/updater/theme-updater.php:43
+#, php-format
+msgid ""
+"Activate this license key to enable auto-updates. Not activating? <a href="
+"\"%s\" target=\"_blank\">Contact support</a>."
+msgstr ""
+
+#: lib/updater/theme-updater.php:44
+msgid "disabled"
+msgstr ""
+
+#: lib/updater/theme-updater.php:45
+msgid "Activate this license key to enable auto-updates."
+msgstr ""
+
+#: lib/updater/theme-updater.php:46
+#, php-format
+msgid ""
+"License status unknown. Check internet connection or <a href=\"%s\" target="
+"\"_blank\">contact support</a>"
+msgstr ""
+
+#: lib/updater/theme-updater.php:47
+msgid ""
+"Updating MD will lose any customizations you\\'ve made to the core files. Be "
+"sure to backup any changes to a Child Theme before updating. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: lib/updater/theme-updater.php:48
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</"
+"a>."
+msgstr ""
+
+#: lib/widgets/content-spotlight.php:21
+msgid "Content Spotlight"
+msgstr ""
+
+#: lib/widgets/content-spotlight.php:22
+msgid "Custom image boxes"
+msgstr ""
+
+#: lib/widgets/content-spotlight.php:111
+msgid "Outer Widget Title"
+msgstr ""
+
+#: lib/widgets/content-spotlight.php:119
+msgid "Box Intro"
+msgstr ""
+
+#: lib/widgets/content-spotlight.php:127
+msgid "Box Title"
+msgstr ""
+
+#: lib/widgets/content-spotlight.php:135 lib/widgets/text-image.php:124
+msgid "Link"
+msgstr ""
+
+#: lib/widgets/content-spotlight.php:145
+msgid "Open link in new window"
+msgstr ""
+
+#: lib/widgets/quote.php:10
+msgid "Testimonial"
+msgstr ""
+
+#: lib/widgets/quote.php:11
+msgid "Add a testimonial/quote to any designated widget area!"
+msgstr ""
+
+#: lib/widgets/quote.php:98
+msgid "Quoted Text"
+msgstr ""
+
+#: lib/widgets/quote.php:106
+msgid "Quote Author"
+msgstr ""
+
+#: lib/widgets/quote.php:115
+msgid "Author Image"
+msgstr ""
+
+#: lib/widgets/quote.php:117
+msgid "Image will be cropped to 80x80 pixels."
+msgstr ""
+
+#: lib/widgets/text-image.php:21
+msgid "Text + Image"
+msgstr ""
+
+#: lib/widgets/text-image.php:22
+msgid ""
+"Create a Text widget with a small right-aligned image as well as a button."
+msgstr ""
+
+#: lib/widgets/text-image.php:141
+msgid "Image (100x100)"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://marketersdelight.net/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Marketers Delight is a theme that builds its layout around your content. "
+"Built with simplicity, readability, and efficiency in mind, MD is a fast-"
+"loading theme that will look stunning on any screen device. You can also "
+"build custom layouts right from the Edit Post/Page screen."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alex Mangini"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://marketersdelight.net/about/"
+msgstr ""

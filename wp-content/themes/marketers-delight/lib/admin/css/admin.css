@@ -1,0 +1,818 @@
+.md *,
+.md *:before,
+.md *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.md img {
+	width: 100%;
+}
+
+.md acronym {
+	border-bottom: 1px dotted #111;
+}
+
+.md .md-label {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.3em;
+}
+
+.md-clear:after,
+.md [class*="columns-"]:after,
+.md-popups .md-repeat-fields:after,
+.md .md-repeat-field:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.md-content-wrap {
+	max-width: 700px;
+}
+
+.md-format-text-sec p,
+.md-format-text-sec li {
+	font-size: 14px;
+	line-height: 23px;
+}
+.md-format-text-sec p:not(:last-child) {
+	margin-bottom: 23px;
+}
+.md-format-text-sec li {
+	margin-bottom: 0;
+}
+
+.md .md-media-hidden {
+	display: none;
+}
+
+.md .md-sep,
+.postbox table.form-table.md-sep {
+	margin-bottom: 30px;
+}
+
+.md .md-sep-small {
+	margin-bottom: 20px;
+}
+
+.md-sep-large {
+	margin-bottom: 60px;
+}
+
+.md-sep-top {
+	margin-top: 30px;
+}
+
+.mb-large {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+#poststuff .md h3:not(.hndle) {
+	font-size: 1.3em;
+	margin: 1em 0;
+	padding-left: 0;
+}
+
+.md h3.hndle input[type="text"] {
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+}
+
+.md-nested {
+	border-left: 3px solid #eee;
+}
+
+.md-nested.form-table th {
+	padding-left: 15px;
+}
+
+
+
+/*------------------------------*\
+	$HELPERS
+\*------------------------------*/
+
+.md-title {
+	color: #222;
+	font-size: 1.3em;
+	font-weight: 600;
+	margin: 1em 0;
+}
+
+.md-alignright {
+	float: right;
+}
+
+.md-inline,
+.wrap .md-inline {
+	display: inline-block;
+	padding-right: 0;
+}
+
+.md .md-spacer {
+	margin-bottom: 15px;
+}
+
+.md .md-spacer-large {
+	margin-bottom: 30px;
+}
+
+.md-hr {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+[class*="md-icon"] {
+	border-radius: 50%;
+	color: #fff;
+}
+
+.md-icon-yes {
+	background-color: #30a146;
+}
+
+.md-icon-no {
+	background-color: #ae2525;
+}
+
+.md-bullet-list {
+	list-style: square;
+	margin-left: 26px;
+}
+
+.md-alert {
+	background-color: #FFFBCC;
+	padding: 13px 26px;
+}
+
+.md-check-list p {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+
+
+
+
+/*------------------------------*\
+	$TABS
+\*------------------------------*/
+
+[class*="appearance_page_md"] #adminmenu .wp-submenu a[href="themes.php?page=md"],
+[class*="appearance_page_page_leads"] #adminmenu .wp-submenu a[href="themes.php?page=md"] {
+	color: #fff;
+	font-weight: 600;
+}
+
+.md-tabs {
+	border-bottom: 1px solid #ccc;
+	color: #555;
+	display: inline-block;
+	font-size: 13px;
+	padding: 0 10px;
+	position: relative;
+	width: 100%;
+}
+
+.md-tab {
+	border-bottom: 4px solid #f1f1f1;
+	color: #666;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 15px 0;
+	text-decoration: none;
+}
+
+.md-tab-active {
+	border-bottom: 4px solid #666;
+	color: #222;
+	font-weight: bold;
+}
+
+.md-tab-active:hover {
+	border-bottom-color: #00a0d2;
+}
+
+
+/* DASHICON */
+
+.md-tab-dashicon {
+	color: #777;
+	font-size: 17px;
+	height: auto;
+	margin-right: 5px;
+	width: auto;
+}
+
+.md-links {
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+.md-links a {
+	color: #555;
+	text-decoration: none;
+}
+
+.md-links a:hover {
+	color: #00a0d2;
+}
+
+
+/* HEADER */
+
+.md-header {
+	margin-bottom: 25px;
+}
+
+.md-header-title {
+	margin-bottom: 10px;
+}
+
+
+
+
+/*------------------------------*\
+	$FIELDS
+\*------------------------------*/
+
+.md-badge,
+.md-badge:hover,
+a.md-badge {
+	background-color: #F2A846;
+	color: #fff;
+	font-size: 12px;
+	padding: 3px 7px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.md-repeat-field {
+	position: relative;
+}
+
+.md-repeat-field:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.md-repeat-field:first-child .md-repeat-delete {
+	display: none;
+}
+
+a.md-circle-badge {
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.1em;
+	height: 19px;
+	margin-right: 4px;
+	text-align: center;
+	width: 19px;
+}
+
+.md-repeat-delete {
+	color: #a00;
+	text-decoration: none;
+}
+
+.md-repeat-delete:hover {
+	background-color: #a00;
+	color: #fff;
+}
+
+.md .form-table td {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.md-meta-h3 {
+	border-bottom: 1px solid #ddd;
+	font-size: 21px;
+	font-weight: normal;
+	padding-bottom: 1em;
+	padding-left: 0;
+	padding-top: 1em;
+}
+
+.md-repeat-field-new .button {
+	display: none;
+}
+
+.md-edit-popup-button + .md-repeat-delete {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.md-button-title {
+	display: inline-block;
+	margin: 0.2em 0.3em 1.8em 0;
+}
+
+
+/* UPDATER */
+
+@media all and (min-width: 782px) {
+
+	.md-edd-license-input {
+		display: inline-block;
+		position: relative;
+	}
+
+}
+
+.md-edd-license-input .dashicons {
+	position: absolute;
+		right: 5px;
+		top: 5px;
+}
+
+.md .dashicons-yes,
+.md .green {
+	color: #30a146;
+}
+
+.md .dashicons-no,
+.md .red {
+	color: #ae2525;
+}
+
+.md .orange {
+	color: #F5B843;
+}
+
+
+
+
+/* FOOTNOTES */
+
+.md-footnotes-fields .md-repeat-field:first-child {
+	display: none;
+}
+
+.md-footnotes-fields textarea {
+	padding: 20px 20px 20px 15px;
+	width: 100%;
+}
+
+.md-footnote-shortcode {
+	background-color: #fffaca;
+	font-family: Consolas, Monaco, Menlo, Courier, Verdana, sans-serif;
+	font-size: 12px;
+	position: absolute;
+		top: 0;
+		right: 0;
+}
+
+.md-footnotes-fields .md-repeat-delete {
+	position: absolute;
+		left: -9px;
+		top: -9px;
+}
+
+.md-footnote-shortcode-count {
+	font-size: 14px;
+}
+
+
+
+
+/*------------------------------*\
+	$COLUMNS
+\*------------------------------*/
+
+.md [class*="columns-"] {
+	margin-bottom: 22px;
+	margin-top: 25px;
+}
+
+.md .col {
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.md .columns-single {
+	margin-left: -22px;
+}
+
+.md .columns-single > .col {
+	padding-left: 22px;
+}
+
+
+@media all and (min-width: 1000px) {
+
+	.md .columns-2 .col {
+		float: left;
+		width: 50%;
+	}
+
+	.md .columns-3 > .col {
+		float: left;
+		width: 33.333333333%;
+	}
+
+	.md .columns-60-40 > .col1 {
+		float: left;
+		width: 60%;
+	}
+
+	.md .columns-60-40 > .col2 {
+		float: left;
+		width: 40%;
+	}
+
+	.md .md-dashboard .col1 {
+		float: right;
+	}
+
+}
+
+.md .col-style {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-width: 0 1px 1px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+	padding: 11px 22px;
+}
+
+.md .col-image {
+	display: block;
+	margin: -33px -22px 33px;
+	position: relative;
+}
+
+.md .col-image .md-badge {
+	border-radius: 0;
+	margin-left: 0;
+	padding-bottom: 5px;
+	padding-right: 8px;
+	position: absolute;
+		left: 0;
+		top: 0px;
+}
+
+.md .col-style h4 {
+	font-size: 17px;
+	margin-bottom: 11px;
+	margin-top: 0;
+}
+
+.md .col-style p {
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 22px;
+}
+
+.md .col-featured {
+	border: 0;
+	outline: 5px solid #F2A846;
+}
+
+.md img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+.md .opacity {
+	opacity: 0.5;
+}
+
+.md .opacity:hover {
+	opacity: 1;
+}
+
+
+/* NEW */
+
+.md .md-widget {
+	border-left: 5px solid #ccc;
+	border-radius: 4px 4px 0 4px;
+	padding: 0;
+}
+
+.md .md-widget-highlight {
+	border-left-color: #F5B843;
+}
+
+.md .md-widget h3 {
+	background-color: #f9f9f9;
+	border-radius: 0 4px 0 0;
+	display: block;
+	line-height: 1;
+	overflow: hidden;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 12px 22px;
+}
+
+.md .md-widget h3 .button {
+	float: right;
+}
+
+.md .md-widget h3 span {
+	display: inline-block;
+	padding-top: 6px;
+}
+
+.md .md-widget ul {
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.md .md-widget ul li {
+	font-size: 14px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.md .md-widget li small {
+	color: #777;
+	font-size: 13px;
+}
+
+.md .md-widget-item,
+.md .md-widget li {
+	border-top: 1px solid #ddd;
+	padding: 15px 22px;
+}
+
+.md .md-widget .md-widget-title {
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.md .md-widget .md-widget-desc {
+	color: #777;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+
+/** CONTENT SPOTLIGHT **/
+
+.content-spotlight {
+	background-color: #23282D;
+	color: #fff;
+	display: block;
+	padding: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.content-spotlight:hover {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.content-spotlight span {
+	text-transform: uppercase;
+}
+
+.content-spotlight p {
+	font-size: 23px;
+	line-height: 34px;
+	margin-bottom: 0;
+	margin-top: 12px;
+}
+
+
+/* LICENSE WIDGET */
+
+.md-license-widget {
+	text-align: center;
+}
+
+.md-license-widget-input {
+	background-color: #ddd;
+	margin-bottom: 26px;
+	overflow: hidden;
+	padding: 13px;
+}
+
+.md-license-widget .md-license-widget-input p {
+	margin-bottom: 7px;
+	margin-top: 0;
+}
+
+.md-license-widget-input input[type="text"] {
+	float: left;
+	width: 74%;
+}
+
+.md-license-widget-input input[type="submit"] {
+	float: left;
+	width: 25%;
+}
+
+
+
+.md-license-widget-info {
+	color: #fff;
+	padding: 39px 26px 16px;
+	position: relative;
+}
+
+.md-license-widget-info a {
+	color: #fff;
+}
+
+.md-license-widget-info a:hover {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.md-license-widget-info b {
+	border-bottom: 1px dotted #fff;
+	cursor: default;
+}
+
+.md-license-widget-info .dashicons {
+	color: #fff;
+	font-size: 45px;
+	height: auto;
+	position: absolute;
+		right: 13px;
+		top: 13px;
+	width: auto;
+}
+
+.md-license-valid {
+	background-color: #30a146;
+}
+
+.md-license-invalid {
+	background-color: #ae2525;
+}
+
+.md .md-license-widget-info .md-license-text {
+	font-size: 14px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.md-license-widget-info .md-license-text-status {
+	font-size: 37px;
+	line-height: 1;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+.md-license-widget-info .md-license-action,
+.md-license-widget-info .md-renew-link {
+	background-color: #fff;
+	border-bottom: 2px solid #ddd;
+	box-shadow: 0 10px 48px -6px rgba(0, 0, 0, .2);
+	color: #0073aa;
+	display: block;
+	font-size: 17px;
+	padding: 13px;
+}
+
+.md-license-widget-info .md-license-action:hover,
+.md-license-widget-info .md-renew-link:hover {
+	color: #00a0d2;
+}
+
+
+
+
+
+
+/*------------------------------*\
+	$SETTINGS
+\*------------------------------*/
+
+.md #poststuff {
+	padding-top: 0;
+	min-width: auto;
+}
+
+.md .postbox-container {
+	width: 100%;
+}
+
+.md .postbox-container h3 {
+	font-size: 14px;
+	padding: 8px 12px;
+	margin: 0;
+	line-height: 1.4;
+}
+
+.md .postbox .hndle {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.term-md-wrap .postbox {
+	margin-bottom: 0;
+}
+
+
+/*------------------------------*\
+	$POPUPS
+\*------------------------------*/
+
+.md-popups [class*="columns-"] {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.md-popups .md-repeat-field:not(.md-repeat-field-new) input[type="text"] {
+	background-color: transparent;
+	border: 0;
+	box-shadow: none;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.md-box-style {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 33px;
+	padding: 30px 30px 15px;
+}
+
+.md-popups .md-popup {
+	background-color: #e4e4e4;
+	background-size: cover;
+	height: 220px;
+	padding: 65px 5px;
+	position: relative;
+	text-align: center;
+}
+
+.md-repeat-field-new .md-popup { /* heh */
+	background-color: #e4e4e4 !important;
+	background-image: none !important;
+}
+
+.md-repeat-field-new .md-popup.md-image-overlay:after {
+	display: none;
+}
+
+.md-popups .md-popup input[readonly] {
+	color: inherit !important;
+}
+
+.md-popups .md-popup input[type="text"] {
+	color: #111;
+	text-align: center;
+	width: 100%;
+}
+
+.md-popups .md-repeat-delete {
+	position: absolute;
+		right: 5px;
+		top: 10px;
+}
+
+.md-popups .submit {
+	margin-top: 0;
+}
+
+
+/* IMAGE OVERLAY */
+
+.md-image-overlay {
+	background-position: center;
+	background-size: cover;
+	display: block;
+	position: relative;
+}
+
+.md-image-overlay > * {
+	z-index: 10;
+	position: relative;
+}
+
+.md-image-overlay:after {
+	background-color: rgba(0, 0, 0, 0.5);
+	content: " ";
+	display: block;
+	height: 100%;
+	position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.md .text-white {
+	color: #fff;
+}
