@@ -1,24 +1,145 @@
 /*
 	Theme Name:     Transformation Agency
-	Theme URI:      http://transformationagency.com
-	Description:    A custom child theme for TA based off of Marketer's Delight by Alex Mangini
+	Theme URI:      http://www.transformationagency.com
+	Description:    Transformation Agency Custom Child Theme
 	Author:         Max Nachamkin
 	Author URI:     http://www.maxnachamkin.com
 	Template:       marketers-delight
 	Version:        1.1
 */
 
+
 /* HEADER */
 
 .header {
+	font-family: 'Titillium Web', sans-serif;
 	text-transform: uppercase;
+	z-index: 2;
+	position: absolute;
+	background-color: rgba(0,0,5,0);
+	width: 100%;
 }
 
 .header-nav-item {
-	font-size: 15px;
+	font-size: 24px;
 	letter-spacing: 1px;
 	padding-bottom: 7px;
+	color: #bf902d;
 }
+
+.header a:hover {
+	color: white;
+	border-bottom: none;
+}
+
+/* HERO LEAD */
+
+.hero-container {
+	height: 600px;
+}
+
+.hero-lead-text {
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -1150px;
+	margin-left: -550px;
+	text-align: center;
+}
+
+.hero-lead-text h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 5em;
+	color: white;
+	line-height: 2em;
+}
+
+.hero-lead-text h2 span {
+	color: #d37529;
+}
+
+.hero-lead-text h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2em;
+	color: white;
+}
+
+.hero-lead-text h3 span {
+	color: #fed347;
+}
+
+/* CHECKLIST LEAD */
+
+.checklist-lead-headline {
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	font-size: 28px;
+}
+
+.checklist-lead {
+	background-color: #dc862e;
+	background-image: url("/wp-content/themes/ta-child-theme/img/pattern.png");
+	background-size: cover;
+}
+
+
+
+/* BODY LEAD */
+.body-lead {
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #ededed;
+}
+
+.body-lead .inner {
+
+}
+
+.body-lead h3, p {
+	color: black;
+}
+
+.body-lead .col {
+	text-align: left;
+}
+
+/* BODY LEAD 2 */
+
+.body-lead2 {
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #ededed;
+	color: black;
+}
+
+.body-lead2 small {
+	color: black;
+}
+
+.body-lead2 a small {
+	color: white;
+}
+
+.body-lead2 .text-sec {
+	color: black;
+}
+
+/* TEAM LEAD */
+
+.team-lead {
+	background-color: #001f31;
+}
+
+
+/* BUTTONS */
+
+a.button {
+	background-color: #657984; /** TA BLUE **/
+}
+
+a.button:hover {
+	background-color: #869fad;
+}
+
 
 
 /**
@@ -68,7 +189,6 @@
 
 }
 
-
 /**
  * This CSS will ONLY be fired on screen sizes SMALLER than 900px.
  */
@@ -102,4 +222,11 @@
 		width: 50%;
 	}
 
+}
+
+/* LINKS */
+
+a {
+	color: #ae2525;
+	text-decoration: none;
 }
