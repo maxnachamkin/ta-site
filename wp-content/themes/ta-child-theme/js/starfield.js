@@ -132,11 +132,12 @@ function start() {
             context.fill();
 
 
-
             for (var i = 0; i < stars.length; i += 1) {
                 var star = stars[i];
                 star.update();
                 drawStar(star);
+
+
                 if (star.x > width) {
                     star.x = 0;
                 }
@@ -149,6 +150,7 @@ function start() {
                 if (star.y < 0) {
                     star.y = height;
                 }
+
             }
 
             for (i = 0; i < shootingStars.length; i += 1) {
@@ -248,7 +250,7 @@ function start() {
     };
 
     window.onblur = function () {
-      paused = false; //default true
+      paused = true; //default true
     };
 
 }
