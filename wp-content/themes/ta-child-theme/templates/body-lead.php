@@ -5,7 +5,7 @@
 
 				<div class="md-features content-box">
 					<div class="inner box">
-						<div class="content-item-headline image-overlay featured-image-cover content-item mb-single" style="background-image: url('/wp-content/themes/ta-child-theme/img/aspens.jpg');">
+						<div class="content-item-headline image-overlay featured-image-cover content-item mb-single" style="background-image: url('/wp-content/themes/ta-child-theme/img/aurora.jpg');">
 							<div class="block-quad format-text-main text-center">
 								<h2 class="headline" itemprop="headline">
 									<span class="entry-title-primary">Here's How Our Agency Amplifies Voices That Matter</span>
@@ -16,29 +16,33 @@
 						<div class="format-text-main links-main block-double">
 							<div class="columns-2 columns-double mb-double">
 								<div class="col col1 mb-single">
-									<img class="dropshadow" src="/wp-content/themes/ta-child-theme/img/diana_smile.jpg" alt="Placeholder" width="481" height="354" />
+									<img class="dropshadow mainphoto" src="/wp-content/themes/ta-child-theme/img/synergy_space.jpg" alt="Placeholder" width="481" height="354" />
 								</div>
 								<div class="col col2">
+									<img class="col-logo" src="/wp-content/themes/ta-child-theme/img/synergy.png" />
 									<h3>The Synergy Experience&nbsp;&nbsp;</h3>
 									<p>Harness the horsepower of a full team without hiring or outsourcing headaches.</p>
-									<a href="/page-leads/" class="button orange hvr-grow-shadow">Learn more</a>
+									<a href="/synergy/" class="button orange hvr-grow-shadow">Learn more</a>
 								</div>
 							</div>
 							<div class="columns-2 columns-double mb-double"><div class="col col1 mb-single" style="float: right;">
-								<img  class="dropshadow" src="/wp-content/themes/ta-child-theme/img/mike_camera.jpg" alt="Placeholder" width="481" height="354" />
+								<img  class="dropshadow mainphoto" src="/wp-content/themes/ta-child-theme/img/strat.jpg" alt="Placeholder" width="481" height="354" />
 							</div>
-							<div class="col col2 clear"><h3>The Media Stampede &nbsp;&nbsp;</i></h3>
+							<div class="col col2 clear">
+								<img class="col-logo" src="/wp-content/themes/ta-child-theme/img/camera.png" />
+								<h3>The Stratosphere Experience &nbsp;&nbsp;</i></h3>
 								<p>Rapid video content creation designed for the digital age.</p>
-								<a href="/email-forms/" class="button orange hvr-grow-shadow">Learn more</a></div></div>
+								<a href="/stratosphere/" class="button orange hvr-grow-shadow">Learn more</a></div></div>
 							</div>
 							<div class="columns-2 columns-double mb-double">
 								<div class="col col1 mb-single">
-									<img class="dropshadow" src="/wp-content/themes/ta-child-theme/img/diana_smile.jpg" alt="Placeholder" width="481" height="354" />
+									<img class="dropshadow mainphoto" src="/wp-content/themes/ta-child-theme/img/vortex.jpg" alt="Placeholder" width="481" height="354" />
 								</div>
 								<div class="col col2">
-									<h3>The Synergy Experience&nbsp;&nbsp;</h3>
-									<p>Harness the horsepower of a full team without hiring or outsourcing headaches.</p>
-									<a href="/page-leads/" class="button orange hvr-grow-shadow">Learn more</a>
+									<img class="col-logo" src="/wp-content/themes/ta-child-theme/img/social.png" />
+									<h3>The Gravity Experience&nbsp;&nbsp;</h3>
+									<p>Meaningfully grow your audience in as little as 60 minutes per week.</p>
+									<a href="/gravity/" class="button orange hvr-grow-shadow">Learn more</a>
 								</div>
 							</div>
 						</div>
@@ -57,18 +61,18 @@
 		<div class="columns-3 columns-double columns-features">
 			<div class="col col1 mb-double">
 				<p>
-					<a class="fade image-overlay block-double text-center text-white caps no-border" style="background-image: url('/wp-content/themes/ta-child-theme/img/sue_film_small.jpg');" href=""><small class="display-block mb-half text-white">Production Studio</small><span class="small-title">Rapidly create captivating content.</span></a>
+					<a class="fade image-overlay block-double text-center text-white caps no-border" style="background-image: url('/wp-content/themes/ta-child-theme/img/sue_film_small.jpg');" href="/production/"><small class="display-block mb-half text-white">Production Studio</small><span class="small-title">Rapidly create captivating content.</span></a>
 				</p>
 
 			</div>
 			<div class="col col2 mb-double">
 				<p>
-					<a class="fade image-overlay block-double text-center text-white caps no-border" style="background-image: url('/wp-content/themes/ta-child-theme/img/max_computer.jpg');" href=""><small class="display-block mb-half text-white">Digital Marketing Agency</small><span class="small-title">Grow your audience, income, and impact.</span></a>
+					<a class="fade image-overlay block-double text-center text-white caps no-border" style="background-image: url('/wp-content/themes/ta-child-theme/img/max_computer.jpg');" href="/agency/"><small class="display-block mb-half text-white">Digital Marketing Agency</small><span class="small-title">Grow your audience, income, and impact.</span></a>
 				</p>
 			</div>
 			<div class="col col3 mb-double">
 				<p>
-					<a class="fade image-overlay block-double text-center text-white caps no-border" style="background-image: url('/wp-content/themes/ta-child-theme/img/paul_dinner.png');" href=""><small class="display-block mb-half text-white">Think Tank</small><span class="small-title">Reinvent how humans <br />organize.</span></a>
+					<a class="fade image-overlay block-double text-center text-white caps no-border" style="background-image: url('/wp-content/themes/ta-child-theme/img/paul_dinner.png');" href="/think-tank/"><small class="display-block mb-half text-white">Think Tank</small><span class="small-title">Reinvent how humans <br />organize.</span></a>
 				</p>
 			</div>
 		</div>

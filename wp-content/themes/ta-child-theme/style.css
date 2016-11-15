@@ -8,7 +8,9 @@
 	Version:        1.1
 */
 
-
+html, body {
+	overflow-x: hidden;
+}
 /* HOMEPAGE HEADER */
 
 .header {
@@ -157,7 +159,7 @@ canvas {
 
 @media all and (min-width: 2000px) {
 	.body-lead .col h3 {
-		padding-top: 100px;
+
 	}
 }
 
@@ -248,33 +250,33 @@ canvas {
 .overlaytext {
 	color: rgba(255,255,255,.85);
 	text-shadow: 2px 2px #000;
-	font-size: 22px;
+	font-size: 18px;
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	top: 100px;
+	top: 140px;
 	margin-left: -200px;
 }
 
 .overlaytext-max {
 	color: rgba(255,255,255,.85);
-	font-size: 24px;
+	font-size: 18px;
 	text-shadow: 2px 2px #000;
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	top: 100px;
+	top: 140px;
 	margin-left: -200px;
 }
 
 .overlaytext-james {
 	text-shadow: 2px 2px #000;
 	color: rgba(255,255,255,.85);
-	font-size: 20px;
+	font-size: 18px;
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	top: 100px;
+	top: 140px;
 	margin-left: -200px;
 }
 
@@ -286,10 +288,10 @@ canvas {
 	position: absolute;
 	text-shadow: 2px 2px #000;
 	color: rgba(255,255,255,.85);
-	font-size: 20px;
+	font-size: 18px;
 	width: 200px;
 	height: 200px;
-	top: 100px;
+	top: 140px;
 	margin-left: -200px;
 }
 
@@ -309,11 +311,11 @@ canvas {
 	.overlaytext-max {
 		text-shadow: 2px 2px #000;
 		color: rgba(255,255,255,.85);
-		font-size: 24px;
+		font-size: 18px;
 		width: 200px;
 		height: 200px;
 		position: absolute;
-		top: 100px;
+		top: 140px;
 		margin-left: -225px;
 		margin-top: 75px;
 	}
@@ -327,11 +329,11 @@ canvas {
 	.overlaytext-anna {
 		text-shadow: 2px 2px #000;
 		color: rgba(255,255,255,.85);
-		font-size: 24px;
+		font-size: 18px;
 		width: 200px;
 		height: 200px;
 		position: absolute;
-		top: 100px;
+		top: 140px;
 		margin-left: 20px;
 		margin-top: -150px;
 		left: 175px;
@@ -350,11 +352,11 @@ canvas {
 	.overlaytext-james {
 		text-shadow: 2px 2px #000;
 		color: rgba(255,255,255,.85);
-		font-size: 20px;
+		font-size: 18px;
 		width: 200px;
 		height: 200px;
 		position: absolute;
-		top: 100px;
+		top: 140px;
 		margin-left: -225px;
 		margin-top: -175px;
 	}
@@ -450,6 +452,11 @@ a:hover {
 	border-bottom: 1px dotted #031226;
 }
 
+/* TEXT ELEMENTS */
+
+.text-intro:first-letter, .drop {
+	color: #344f60;
+}
 
 /* BUTTONS */
 
@@ -492,6 +499,16 @@ a.button:hover {
 
 .dropshadow {
 	box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+}
+
+.mainphoto {
+	box-shadow: 0 15px 35px rgba(58, 58, 58, 0.8),0 5px 15px rgba(0,0,0,.07);
+  border-radius: 10px;
+}
+
+.col-logo {
+	width: 150px;
+	height: 150px;
 }
 
 .fade:after {
