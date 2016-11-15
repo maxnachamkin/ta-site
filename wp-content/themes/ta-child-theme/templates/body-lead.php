@@ -21,7 +21,7 @@
 								<div class="col col2">
 									<h3>The Synergy Experience&nbsp;&nbsp;</h3>
 									<p>Harness the horsepower of a full team without hiring or outsourcing headaches.</p>
-									<a href="/page-leads/" class="button orange">Learn more</a>
+									<a href="/page-leads/" class="button orange hvr-grow-shadow">Learn more</a>
 								</div>
 							</div>
 							<div class="columns-2 columns-double mb-double"><div class="col col1 mb-single" style="float: right;">
@@ -29,7 +29,7 @@
 							</div>
 							<div class="col col2 clear"><h3>The Media Stampede &nbsp;&nbsp;</i></h3>
 								<p>Rapid video content creation designed for the digital age.</p>
-								<a href="/email-forms/" class="button orange">Learn more</a></div></div>
+								<a href="/email-forms/" class="button orange hvr-grow-shadow">Learn more</a></div></div>
 							</div>
 							<div class="columns-2 columns-double mb-double">
 								<div class="col col1 mb-single">
@@ -38,7 +38,7 @@
 								<div class="col col2">
 									<h3>The Synergy Experience&nbsp;&nbsp;</h3>
 									<p>Harness the horsepower of a full team without hiring or outsourcing headaches.</p>
-									<a href="/page-leads/" class="button orange">Learn more</a>
+									<a href="/page-leads/" class="button orange hvr-grow-shadow">Learn more</a>
 								</div>
 							</div>
 						</div>
